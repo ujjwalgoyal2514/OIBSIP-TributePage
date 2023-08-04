@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+}
+.contain{
+   width: 100%;
+   height: 80vh;
+   background-color: rgb(27, 80, 225);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 28px;
+}
+.header a{
+    font-size: 20px;
+    margin-top: 2%;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: transform .2s;
+}
+.header a:hover{
+    transform: scale(1.5);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container img{
+    width: 20%;
+    margin-top:2% ;
+}
+.container p{
+    margin-top: 2%;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0%;
+}
+#eins{
+    font-size: 5rem;
+    margin-top: 0%;
+}
+
+.contain_about{
+    width: 100%;
+    height: 4000px;
+    background-color:rgba(106, 109, 111, 0.308);
+}
+.about h1{
+    width: 100%;
+    font-weight: bold;
+    font-size: 5rem;
+    color: rgb(32, 47, 123);
+    margin: 0px 42%;
+}
+.history{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.history1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.history2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+    margin-bottom: 7%;
+}
+.history3{
+    width: 100%;
+    height: 200px;
+}
+.block1{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    flex-direction: column;
+    
+}
+.block1 p{
+    color: rgb(32, 47, 123);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.block1 img{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.block2{
+    width: 500px;
+    height: auto;
+    color: rgb(32, 47, 123);
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+.block3{
+    width: 800px;
+    display: flex;
+    height: 400px;
+    color: rgb(32, 47, 123);
+    font-size: 25px;
+    margin-top: 28%;
+}
+.equation{
+    width: 800px;
+    height: 100px;
+    color: rgb(189, 68, 47);
+    font-size: 70px;
+    margin-top: -100px;
+    margin-left: 500px;
+}
+.last{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(38, 77, 185, 0.787);
+    
+}
+.last a{
+    width: 400px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: antiquewhite;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.last p{
+    color: antiquewhite;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width:999px){
+    .contain{
+        height: 75vh;
+    }
+    .container img{
+        width: 12rem;
+        margin-top: 5%;
+    }
+    #eins{
+        margin-top: -2%;
+        font-size: 45px;
+    }
+    .header a{
+        font-size: 16px;
+        margin-bottom: 0%;
+    }
+    .about h1{
+        font-size:3rem;
+        margin-left: 150px;
+        
+    }
+    .block1{
+        height: auto;
+    }
+    .block2{
+        font-size: 20px;
+        height: auto;
+    }
+    .history1{
+        margin-top: 30%;
+    }
+    .history{
+        margin-bottom: 5%;
+    }
+    .block1 img{
+        margin-top: 85%;
+    }
+    .block3{
+        margin-top: 90%;
+        font-size: 20px;
+    }
+    .equation{
+        font-size: 50px;
+        margin-top:-2% ;
+        margin-left: 160px;
+    }
+   
+}
+@media screen and (max-width:400px){
+    #eins{
+        margin-top: 2%;
+        font-size: 35px;
+    }
+    .contain{
+        height: 55vh;
+    }
+    .about h1{
+        font-size:3rem;
+        margin-left: 110px;
+        
+    }
+    .block2{
+        margin-top: 20%;
+    }
+    .history{
+        margin-bottom: 5%;
+    }
+    .history2{
+        margin-top: 20%;
+    }
+}
